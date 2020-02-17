@@ -44,7 +44,7 @@ public class EmailController {
         try {
             helper = new MimeMessageHelper(message, true);
             //Set who the email will be sent to
-            helper.setTo("Rachnicrice@gmail.com");
+            helper.setTo("conley.eg@gmail.com");
             //Set the subject of the email
             helper.setSubject("Customer: " + customerID);
             //Set the email body
